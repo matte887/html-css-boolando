@@ -69,10 +69,6 @@ html {
     width: 100%;
 }
 
-.description {
-
-}
-
 /* etichette su foto */
 .heart {
     width: 40px;
@@ -93,4 +89,15 @@ html {
 
 .product .label.sustainability {
     background-color: #eb1c37;
+}
+
+.product-photo img:nth-child(2) {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product-photo:hover #prova {
+    display: block;
 }
