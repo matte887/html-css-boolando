@@ -105,3 +105,7 @@ html {
 .product-photo:hover img:nth-child(2) {
     display: block;
 }
+
+.product:hover .heart{
+    color: #eb1c37;
+}
