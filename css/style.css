@@ -33,6 +33,12 @@ html {
     color: rgb(128, 128, 128);
 }
 
+.label-container {
+    position: absolute;
+    left: 0px;
+    bottom: 20px;
+}
+
 .label {
     color: white;
     padding: 0.4em;
@@ -52,6 +58,10 @@ html {
     display: inline-block;
     vertical-align: top;
     margin: 0 15px;
+    /* position: relative; */
+}
+
+.container .product .product-photo {
     position: relative;
 }
 
