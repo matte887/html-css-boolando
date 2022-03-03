@@ -8,7 +8,7 @@
 
 html {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 /* MAIN */
@@ -29,6 +29,10 @@ html {
     text-decoration: line-through;
 }
 
+.font-faded {
+    color: rgb(128, 128, 128);
+}
+
 
 /* contenitori */
 
@@ -44,10 +48,20 @@ html {
     border: 1px dashed red;
     width: calc(100%/3 - 30px);
     margin: 0 15px;
+    vertical-align: top;
 }
 
 .product img {
     width: 100%;
 }
 
+.description {
+
+}
+
+/* etichette su foto */
+.heart {
+    font-size: 1.5em;
+    
+}
 
