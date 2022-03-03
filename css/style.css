@@ -4,3 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    border: 1px solid black;
+    margin: 3em auto;
+}
+
+.product {
+    display: inline-block;
+    border: 1px dashed darkblue;
+    width: calc(100%/3 - 30px);
+    margin: 0 15px;
+}
