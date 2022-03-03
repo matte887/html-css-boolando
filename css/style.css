@@ -36,7 +36,7 @@ html {
 .label-container {
     position: absolute;
     left: 0px;
-    bottom: 20px;
+    bottom: 20px; /*DOMANDA POSIZIONAMENTO*/
 }
 
 .label {
@@ -48,7 +48,7 @@ html {
 /* contenitori */
 
 .container {
-    width: 80%;
+    width: 70%;
     max-width: 1000px;
     margin: 3em auto;
 }
@@ -58,7 +58,6 @@ html {
     display: inline-block;
     vertical-align: top;
     margin: 0 15px;
-    /* position: relative; */
 }
 
 .container .product .product-photo {
@@ -69,6 +68,10 @@ html {
     width: 100%;
 }
 
+.container .row {
+    margin-bottom: 2em;
+}
+
 /* etichette su foto */
 .heart {
     width: 40px;
@@ -77,27 +80,28 @@ html {
     position: absolute;
     right: 0px;
     top: 15px;
-    /* display: inline-block; */
     line-height: 40px;
     text-align: center;
     background-color: white;
 }
 
 .product .label.discount {
-    background-color: #00875a;
-}
-
-.product .label.sustainability {
     background-color: #eb1c37;
 }
 
-.product-photo img:nth-child(2) {
+.product .label.sustainability {
+    background-color: #00875a;
+}
+
+/* funzionalità hover su foto */
+
+.product-photo img:nth-child(2) { /*DOMANDA SELETTORE */
     display: none;
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.product-photo:hover #prova {
+.product-photo:hover img:nth-child(2) {
     display: block;
 }
